@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperacion</title>
+    <style>
+        #tabla, #volverBtn {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+<br><br><br><br>
+
+        <form id="formulario" class="bordered">
+            <div class="container"  style="margin: 10px;">
+            
+              
+                <input class="form-control" type="text" id="numero1" name="numero" placeholder="Ingrese el valor de a">
+                <span class="text-danger" id="error1"></span>
+<br>
+                <input class="form-control" type="text" id="numero2" name="numero" placeholder="Ingrese el valor de b">
+                <span class="text-danger" id="error2"></span>
+<br>
+                <input class="form-control" type="text" id="numero3" name="numero" placeholder="Ingrese el valor de c">
+                <span class="text-danger" id="error3"></span>
+            
+         
+
+            <div class="row">
+                <div class="col-sm-4"><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="submit" class="btn btn-success">Evaluar</button>
+                </div>
+            </div>
+        </div>
+        </form>
+<br>
+<div id="tabla"></div>
+<br>
+<button id="volverBtn" class="btn btn-warning">Regresar</button>
+
+    </div>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="recuperacion.js"></script>
+</body>
+</html>
