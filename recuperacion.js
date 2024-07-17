@@ -92,7 +92,8 @@ let tabla = document.querySelector("#tabla");
         }
 
         let imprimir = (a, b, c, valorx1, valorx2) => {
-            let msg = "<table class='table table-dark table-hover'>";
+            let msg = " <h1 style='color: blueviolet;'> Tabla de resultados </h1><br>";
+            msg += "<table class='table table-dark table-sm'>";
             msg += "<thead class='table-dark'>";
             msg += "<tr><th>a</th><th>b</th><th>c</th><th>x1</th><th>x2</th></tr>";
             msg += "<thead>";
