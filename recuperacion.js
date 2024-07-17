@@ -110,7 +110,7 @@ let tabla = document.querySelector("#tabla");
         }
 
         let mostrarMensaje = () => {
-            let msg = "<h2> La ecuación no tiene solucion ya que la raiz es negativa, ingresa una nueva </h2>";
+            let msg = "<h1  style='color: blueviolet;'> Error 404 :( </h1> <br><h2  style='color: blueviolet;'> La ecuación no tiene solucion ya que la raiz es negativa</h2> <br><h3  style='color: blueviolet; '> Vuelve a intentarlo ingresando nuevos datos</h3>";
             tabla.innerHTML = msg;
         }
 
